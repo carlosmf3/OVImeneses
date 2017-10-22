@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/fondo.jpg)no-repeat fixed center center #333 ;
+	background-size: cover;
+}
+#wrapper {
+border-radius: 5px;
+background-color:#CCC;
+height: 600px;
+margin:0 auto;
+width: 600px;
+}
+#primero{
+border-radius: 5px;
+background-color:#DDD;
+box-shadow: 0 0 10px rgba(0,0,0,0,3);
+padding: 4px;
+margin-left: 50px;
+margin-top: 20px;
+width: 200px;
+float: left;
+
+}
+#segundo{
+border-radius: 5px;
+background-color:#DDD;
+box-shadow: 0 0 10px rgba(0,0,0,0,3);
+padding: 4px;
+margin-left: 50px;
+margin-top: 20px;
+width: 200px;
+float: left;
+}
+img{
+text-align: center;
+float: left;
+width: 20em;
+height: 10em;
+padding-left: 140px;
+}

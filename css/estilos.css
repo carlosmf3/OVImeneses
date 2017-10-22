@@ -1,0 +1,158 @@
+
+
+@font-face {
+    font-family: 'fira_sansbold_italic';
+    src: url('../font/firasans-bolditalic-webfont.woff2') format('woff2'),
+         url('../font/firasans-bolditalic-webfont.woff') format('woff');
+         url('..font/firasans-bolditalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+body{
+	background: #FFFFFF;
+	color: #FFFFFF;
+	font-family: "fira_sansbold_italic", Helvetica, Verdana;
+	font-size: 2em;
+}
+
+h1{
+	color: #Fff;
+	margin: 2.8em auto;
+    font-size: 79%;
+	text-align: right;
+	text-shadow:2px 2px 5px rgba(255,255,255,0.5);
+}
+header{
+	background: #005883;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	width: 100%;
+	height: 295px;
+	padding: 0.25em;
+	
+}
+
+nav{
+	background: #005883;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	width: 100%;
+	height: 65px;
+	padding: 0.25em;
+	text-align: center;
+	
+	}
+
+	#header{
+		margin: auto;
+		width: 1075px;
+		font-size: 0.9em;
+		}
+
+	ul,ol{
+		list-style: none;
+	}
+	.nav li a {
+		background:#005883 ;
+		color:#fff ;
+		text-decoration: none;
+		display:block; 
+		padding: 10px 15px;
+		}
+	.nav li a:hover {
+		background-color:#434343; 
+	}
+
+	.nav > li {
+		float: left;
+	}
+	.nav li ul{
+		display:none;
+		position:absolute;
+		min-width:140px; 
+	}
+	.nav li:hover > ul{
+		z-index:1;
+		display: block;
+	}
+
+footer{
+	background: #005883;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	width: 100%;
+	height: 100px;
+	padding: 0.25em;
+	text-align: center;}
+
+
+header img{
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	width: 30%;
+	height: 70%;
+	position:relative;
+	bottom:30%;
+	right:-1%;
+	margin-top:-50px;
+			}
+article img{
+	border-radius: 0.5em;
+	width: 20%;
+	height:50%;
+	position:relative;
+	bottom:30%;
+	right:32%;
+	margin-top:-150px;
+			}
+
+		}
+section #contenedor{
+	margin: 0.5em auto;
+	width: 98%;
+	padding: 0;
+	text-align: center;
+
+}
+
+section #principal, aside{
+	background: #D8D8D8;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0.5em auto;
+	height: 1000px;
+	text-align: justify;
+	vertical-align: top;
+	width: 85%;
+	padding: 0;
+	position: relative;
+	bottom:10px;
+	right:-1px;
+	color: black;
+}
+
+article{
+	border-radius: 0.5em;
+	min-height: 140px;
+	padding: 18em;
+	border-color: #fff;
+	color:black;
+	font-size: 0.5em;
+	width: 98%;
+	padding-top:4em;
+}
+aside{
+	width: 10%;
+	max-width: 200px;
+	left: 1px;
+	color: black;
+}
+	
