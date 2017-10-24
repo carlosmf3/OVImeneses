@@ -60,29 +60,58 @@ nav{
 	ul,ol{
 		list-style: none;
 	}
-	.nav li a {
+	nav li a {
 		background:#005883 ;
 		color:#fff ;
 		text-decoration: none;
 		display:block; 
 		padding: 10px 15px;
 		}
-	.nav li a:hover {
+	nav li a:hover {
 		background-color:#434343; 
 	}
 
-	.nav > li {
+	nav > li {
 		float: left;
 	}
-	.nav li ul{
+	nav li ul{
 		display:none;
 		position:absolute;
 		min-width:140px; 
 	}
-	.nav li:hover > ul{
+	nav li:hover > ul{
 		z-index:1;
 		display: block;
 	}
+
+
+	.header{
+	width: 100%;
+	max-width: 90%;
+	margin: 30px auto;
+
+}
+ul.nav{
+	width: 100%;
+	background: #005883;
+	list-style: none;
+	display: flex;
+	}
+}
+ul.nav li{
+	width: 20%;
+}
+ul.nav li a{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px 0px;
+}
+.active{
+	background: #0984cc;
+}
 
 footer{
 	background: #005883;
@@ -156,3 +185,41 @@ aside{
 	color: black;
 }
 	
+
+.contenedor{
+	width: 100%;
+	background: #FFF;
+}
+
+.contenedor article{
+	padding: 30px;
+	text-decoration-style: none;
+}
+
+.contenedor article p{
+	text-align: justify;
+	text-decoration-style:none;
+	list-style: none;
+}
+.tab1{
+	text-align: justify;
+	text-decoration-style:none;
+	list-style: none;
+}
+@media scren and (max-width:700px){
+	ul.tabs li{
+	width:none;
+	flex-basis: 0;
+	flex-grow: 1;
+}
+
+@media scren and (max-width:450px){
+	ul.tabs li a{
+	padding: 15px 0px;
+}
+.secciones article{
+	padding:20px;
+}
+.imgcabecera{
+
+}
