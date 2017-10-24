@@ -30,30 +30,32 @@ header{
 	position: relative;
 	}
 
-img.logocab{
-	position: absolute;
-	width:10px;
-	height:;
+.logocab img{
+	width:200px;
+	height:200px;
+	position: relative;
 
 }
-	header h1{
+	#tituloovi{
 	color: #Fff;
 	margin: 2.8em auto;
     text-shadow:2px 2px 5px rgba(255,255,255,0.5);
     position: relative;
+    float: right;
 
 }
 
 ul,ol{
 		list-style: none;
+
 	}
 	div li a {
 		background:#005883 ;
 		color:#fff ;
 		text-decoration: none;
 		display:block; 
-		padding: 10px 15px;
-		}
+
+			}
 	
 	div > li {
 		float: left;
@@ -61,14 +63,31 @@ ul,ol{
 	div li ul{
 		display:none;
 		position:absolute;
-		min-width:160px; 
+		min-width:150px; 
+
 	}
-	div li:hover > ul{
+
+	div li ul a{
+		position:relative;
+		min-width:150px; 
+		display: block;
+		text-align: left;
+		font-size: 15px;
+		padding: 0.2px;
+
+		}
+
+	div li:hover > ul {
 		z-index:1;
 		display: block;
 	}
 
+p {
+	text-decoration: none;
+	text-indent: 30px;
+	text-align: justify;
 
+}
 
 
 .wrap{
@@ -86,14 +105,15 @@ ul.tabs{
 ul.tabs li{
 	width: 20%;
 }
-ul.tabs li a{
+ul.tabs li  {
 	color: #FFF;
 	text-decoration: none;
 	display: block;
-	font-size: 20px;
+	font-size: 25px;
 	text-align: center;
-	padding: 20px 0px;
-}
+
+	}
+
 .active{
 	background: #0984cc;
 }
@@ -107,11 +127,14 @@ ul.tabs li a{
 	text-decoration-style: none;
 }
 
-.secciones article p{
+p {
+	font-size: 20px;
+	text-decoration-line: none;
+	text-decoration-style: none;
 	text-align: justify;
-	text-decoration-style:none;
-	list-style: none;
+
 }
+
 h1{
 	list-style: none;
 	text-decoration-style: none;
@@ -120,6 +143,19 @@ h1{
 	text-align: justify;
 	text-decoration-style:none;
 	list-style: none;
+}
+
+#piepagina{
+	width: 800px;
+	height: 60px;
+	max-width: 90%;
+	margin: 30px auto;
+	background: #000;
+	position: relative;
+	border-radius: 0.2em;
+	margin-top: 01px;
+
+
 }
 @media scren and (max-width:700px){
 	ul.tabs li{
@@ -135,3 +171,4 @@ h1{
 .secciones article{
 	padding:20px;
 }
+
