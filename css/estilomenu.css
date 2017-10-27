@@ -158,8 +158,8 @@ h1{
 }
 
 #piepagina img{
-	margin-top: 10px;
-	margin-left: 10px;
+	margin-top: 5px;
+	margin-left:5px;
 }
 
 @media scren and (max-width:700px){
