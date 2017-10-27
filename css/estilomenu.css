@@ -7,9 +7,9 @@
 }
 @font-face {
     font-family: 'fira_sansbold_italic';
-    src: url('../font/firasans-bolditalic-webfont.woff2') format('woff2'),
-         url('../font/firasans-bolditalic-webfont.woff') format('woff');
-         url('..font/firasans-bolditalic-webfont.ttf') format('truetype');
+    src: url('font/firasans-bolditalic-webfont.woff2') format('woff2'),
+         url('font/firasans-bolditalic-webfont.woff') format('woff');
+         url('font/firasans-bolditalic-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -147,7 +147,7 @@ h1{
 
 #piepagina{
 	width: 800px;
-	height: 60px;
+	height: 160px;
 	max-width: 90%;
 	margin: 30px auto;
 	background: #000;
@@ -155,8 +155,13 @@ h1{
 	border-radius: 0.2em;
 	margin-top: 01px;
 
-
 }
+
+#piepagina img{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
 @media scren and (max-width:700px){
 	ul.tabs li{
 	width:none;
@@ -171,4 +176,12 @@ h1{
 .secciones article{
 	padding:20px;
 }
+h1 {
+	text-decoration-style: none;
+	font-size: 22px;
 
+}
+
+p {
+
+}
