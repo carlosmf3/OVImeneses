@@ -17,6 +17,7 @@
 body{
 
 	background:#E6E6E6;
+	font-family: 'Roboto Condensed', sans-serif;
 
 }
 
@@ -135,9 +136,9 @@ p {
 
 }
 
-h1{
+a{
 	list-style: none;
-	text-decoration-style: none;
+	text-decoration: none;
 }
 .tab1{
 	text-align: justify;
