@@ -138,7 +138,7 @@ ul.tabs li  {
 }
 
 .secciones article{
-	padding: 30px;
+	padding: 10px;
 	text-decoration-style: none;
 }
 
@@ -154,15 +154,33 @@ p {
 
 .autor1{
 	position: relative;
-	float: left;
+	margin:10px;
 }
 .autor2{
 	position: relative;
-	float: left;
+	margin-top:80px;
+	margin-left:10px;
 }
 .autor3{
 	position: relative;
+	margin-top: -290px;
+	margin-left: 380px;	
+
+}
+.datautor1{
+	position: relative;
 	float: left;
+}
+.datautor2{
+	position: relative;
+	float: left;
+}
+.datautor3{
+	position: relative;
+	float: left;
+	margin-top: -180px;
+	margin-left: 240px;
+
 }
 
 
