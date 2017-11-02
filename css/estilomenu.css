@@ -150,6 +150,20 @@ p {
 
 }
 
+.autor1{
+	position: relative;
+	float: left;
+}
+.autor2{
+	position: relative;
+	float: left;
+}
+.autor3{
+	position: relative;
+	float: left;
+}
+
+
 a{
 	list-style: none;
 	text-decoration: none;
